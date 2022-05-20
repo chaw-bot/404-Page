@@ -37,3 +37,13 @@ section {
   letter-spacing: -0.035em;
   color: #333333;
 }
+
+.notice {
+  font-family: 'Space Mono';
+  width: 328px;
+  height: 81px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
