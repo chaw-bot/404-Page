@@ -27,3 +27,13 @@ section {
   width: 286.83px;
   height: 238px;
 }
+
+.subtitle {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  width: 350px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
