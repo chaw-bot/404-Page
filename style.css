@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+header {
+  padding: 20px 0 0 24px;
+}
+
 .title {
   font-family: 'Inconsolata';
   font-weight: 700;
@@ -13,4 +17,13 @@
   letter-spacing: -0.08em;
   text-transform: uppercase;
   color: #333333;
+}
+
+section {
+  padding-top: 109px;
+}
+
+.scarecrow {
+  width: 286.83px;
+  height: 238px;
 }
