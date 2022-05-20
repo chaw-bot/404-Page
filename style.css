@@ -47,3 +47,13 @@ section {
   letter-spacing: -0.035em;
   color: #4f4f4f;
 }
+
+button {
+  background-color: #333333;
+  border: none;
+  font-family: 'Space Mono';
+  font-size: 14px;
+  color: #ffffff;
+  padding: 24px 43px;
+  line-height: 21px;
+}
