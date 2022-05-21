@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://chaw-bot.github.io/404-Page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/chaw-bot/404-Page/">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+| Mobile View | Desktop View |
+|-------------|--------------|
+|![screenshot](images/mobile.png)|![screenshot](images/desktop.png)|
 
 This is my attempt at making a simple web page with just HTML and CSS.
 
