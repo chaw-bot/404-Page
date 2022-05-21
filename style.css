@@ -5,8 +5,21 @@
   list-style: none;
 }
 
+/* Mobile Version */
+
 header {
   margin: 20px 0 0 24px;
+}
+
+.title,
+.subtitle {
+  color: #333333;
+}
+
+.subtitle,
+.notice,
+button {
+  font-family: 'Space Mono';
 }
 
 .title {
@@ -15,8 +28,6 @@ header {
   font-size: 24px;
   line-height: 25px;
   letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #333333;
 }
 
 section {
@@ -29,23 +40,23 @@ section {
   margin: 20px 0 60px 0;
 }
 
+.subtitle,
+.notice {
+  letter-spacing: -0.035em;
+}
+
 .subtitle {
-  font-family: 'Space Mono';
   font-weight: 700;
   font-size: 48px;
   line-height: 71px;
   width: 350px;
-  letter-spacing: -0.035em;
-  color: #333333;
 }
 
 .notice {
-  font-family: 'Space Mono';
   width: 328px;
   height: 81px;
   font-size: 18px;
   line-height: 27px;
-  letter-spacing: -0.035em;
   color: #4f4f4f;
   margin: 30px 0 66px 0;
 }
@@ -53,7 +64,6 @@ section {
 button {
   background-color: #333333;
   border: none;
-  font-family: 'Space Mono';
   font-size: 14px;
   color: #ffffff;
   padding: 24px 43px;
