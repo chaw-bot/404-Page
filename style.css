@@ -6,7 +6,7 @@
 }
 
 header {
-  padding: 20px 0 0 24px;
+  margin: 20px 0 0 24px;
 }
 
 .title {
@@ -20,12 +20,13 @@ header {
 }
 
 section {
-  padding-top: 109px;
+  margin: 109px 0 0 24px;
 }
 
 .scarecrow {
   width: 286.83px;
   height: 238px;
+  margin: 20px 0 60px 0;
 }
 
 .subtitle {
@@ -46,6 +47,7 @@ section {
   line-height: 27px;
   letter-spacing: -0.035em;
   color: #4f4f4f;
+  margin: 30px 0 66px 0;
 }
 
 button {
@@ -56,4 +58,16 @@ button {
   color: #ffffff;
   padding: 24px 43px;
   line-height: 21px;
+}
+
+footer, a {
+  color: #bdbdbd;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+footer {
+  margin: 114px 0 24px 0;
 }
