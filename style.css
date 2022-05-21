@@ -31,12 +31,12 @@ button {
 }
 
 section {
-  margin: 109px 0 0 24px;
+  margin: 100px 0 0 24px;
 }
 
 .scarecrow {
-  width: 286.83px;
-  height: 238px;
+  width: 290px;
+  height: 240px;
   margin: 20px 0 60px 0;
 }
 
@@ -53,8 +53,8 @@ section {
 }
 
 .notice {
-  width: 328px;
-  height: 81px;
+  width: 330px;
+  height: 80px;
   font-size: 18px;
   line-height: 27px;
   color: #4f4f4f;
@@ -79,5 +79,43 @@ footer, a {
 }
 
 footer {
-  margin: 114px 0 24px 0;
+  margin: 115px 0 25px 0;
+}
+
+/* Desktop Version */
+
+@media only screen and (min-width: 768px) {
+  header {
+    margin: 40px 0 0 77px;
+  }
+
+  section {
+    display: flex;
+    margin: 200px 0 0 77px;
+    column-gap: 120px;
+  }
+
+  .scarecrow {
+    width: 540px;
+    height: 445px;
+  }
+
+  .subtitle {
+    font-size: 64px;
+    line-height: 95px;
+    width: 586px;
+  }
+
+  .notice {
+    width: 381px;
+    height: 110px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 24px 43px;
+    line-height: 21px;
+  }
 }
